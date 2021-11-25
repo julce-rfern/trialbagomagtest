@@ -1,0 +1,28 @@
+#box
+{
+    width: 75%;
+    padding-top: 50px;
+    margin: auto;
+}
+
+
+#evtype
+{
+    position: relative; left: 59px;
+}
+
+#evname
+{
+    width: auto;
+    position: relative; left: 62px;
+}
+
+.date
+{
+    position: relative; left: 54px;
+}
+
+#date
+{
+    position: relative; left: 50px;
+}

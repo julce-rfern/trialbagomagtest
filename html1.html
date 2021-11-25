@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Create a New Event
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="box">
+        <form onsubmit="log()">
+            <span>Event Type</span>
+            <select id="evtype">
+                <option value="placeholder">Choose one</option>
+                <option value="birthday">Birthday</option>
+                <option value="wedding">Wedding</option>
+                <option value="funeral">Funeral</option>         
+            </select>
+            <br><br>
+            <span>Event Title</span>
+            <input id="evname" type="text" placeholder="Write event name..." required><br><br>
+            <span>Event Dates</span>
+                <input class="date" type="date" required>
+                <span class ="date">&nbsp;to&nbsp;</span>
+                <input class="date" type="date" required><br><br>
+            <span>Posting Date</span>
+                <input id="date" type="date" required>
+            <br><br>
+            <input type="checkbox"> 
+                <span>Is registration required?</span><br><br>
+            <input type="checkbox"> 
+                <span>Is this event associated with any Family Programs?</span><br><br>
+            <input type="checkbox">
+                <span>Upon Registration Completion, Are Users to Receive an Auto Generated Email?</span><br><br>
+            <input type="checkbox"> 
+                <span>Is there a Point of Contact?</span><br><br>
+            <input type="checkbox"> 
+                <span>Is There a Hosting Command Point of Contact?</span>
+            <br><br><br>
+            <div style="text-align:center;">
+                <input type="submit" value="Save">
+                    &nbsp;&nbsp;&nbsp;
+                <button type="button" onclick="cancel()">Cancel</button>
+            </div>
+        </form>
+        <p>Passed</p>
+    </div>
+</body>
